@@ -43,7 +43,7 @@ class GradientBoostRegression:
             'num_trees': self.num_trees,
             'learn_rate': self.learn_rate,
             'tree_depth': self.tree_depth,
-            'reg_param': self.l2reg
+            'l2reg': self.l2reg
         }
 
     def set_params(self, **params):
